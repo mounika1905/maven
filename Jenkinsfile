@@ -39,7 +39,7 @@ pipeline
             steps
             {
                 input 'Hi Manager Vinod, Please approve for depolyment in Prod server !'
-                deploy adapters: [tomcat9(credentialsId: '96f64ec9-9b16-49bb-83c0-839019550937', path: '', url: 'http://172.31.38.170:8080')], contextPath: 'prodapp', war: '**/*.war'
+                deploy adapters: [tomcat9(credentialsId: '96f64ec9-9b16-49bb-83c0-839019550937', path: '', url: 'http://172.31.38.170:8080')], contextPath: 'prodapp1', war: '**/*.war'
             }
         }
     }
